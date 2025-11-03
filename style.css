@@ -158,3 +158,50 @@ footer {
   .navbar { flex-direction: column; }
   .nav-links { flex-wrap: wrap; justify-content: center; }
 }
+
+/* --- Welcome Page --- */
+.welcome-body {
+  background: linear-gradient(120deg, #0d1b4c, #1a3c8c);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+.welcome-container {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 50px 70px;
+  border-radius: 20px;
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+}
+
+.welcome-container h1 {
+  font-size: 3rem;
+  margin-bottom: 15px;
+  color: #b3c7ff;
+}
+
+.welcome-container p {
+  font-size: 1.1rem;
+  margin-bottom: 25px;
+  color: #e6ebff;
+}
+
+.enter-btn {
+  display: inline-block;
+  padding: 12px 30px;
+  border-radius: 30px;
+  background: #1a3c8c;
+  color: #fff;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.enter-btn:hover {
+  background: #0d1b4c;
+  transform: translateY(-2px);
+}
